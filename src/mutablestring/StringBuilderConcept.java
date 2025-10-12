@@ -1,9 +1,9 @@
 package mutablestring;
 
-public class StringBufferConcept {
+public class StringBuilderConcept {
 	public static void main(String[] args) {
 		String st1="Gomathi";
-		StringBuffer sb= new StringBuffer();
+		StringBuilder sb= new StringBuilder();
 		System.out.println(sb.capacity());
 		System.out.println(sb.length());
 		sb.append(st1);
@@ -25,3 +25,5 @@ public class StringBufferConcept {
 	}
 
 }
+
+
