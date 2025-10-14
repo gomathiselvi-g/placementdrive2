@@ -4,6 +4,7 @@ public class WrapperClass {
 	public static void main(String[] args) {
 		//auto boxing-->prim to non prim
 		int num=1032;
+		Integer i=Integer.valueOf(num);
 		Integer n=num;
 		System.out.println(n);
 		//un boxing
@@ -30,7 +31,7 @@ public class WrapperClass {
 		//Integer res=Integer.parseInt(st);//non prim ->non prim
 		System.out.println(res);
 		//Integer i=Integer.valueOf(num);
-		System.out.println(n);
+		System.out.println(i);
 		float f=32.9f;
 		Float ft=Float.valueOf(f);
 		System.out.println(ft);
