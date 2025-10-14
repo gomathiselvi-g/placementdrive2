@@ -27,7 +27,7 @@ public class IntroductionOfMethods {
 			}
 //with return type with parameter
 			String concatination(String s1,String s2) {
-				return s1+s2;
+				return s1+" "+s2;
 			}
 //another example
 			int nilan(int a ,int  b) {
@@ -48,3 +48,4 @@ public class IntroductionOfMethods {
 			}
 		}
 
+                                         

@@ -21,7 +21,7 @@ public class Callbyreference2 {
 			System.out.println("\n\nmethod passing reference");
 			int arr[]= {1,2};
 			System.out.println("Before call: "+arr[0]);
-			v.refer(arr);
+			v.refer(arr);//passing address to refer
 			System.out.println("After call: "+arr[0]);
 			System.out.println(arr);
 		}
