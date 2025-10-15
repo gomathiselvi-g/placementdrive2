@@ -20,7 +20,7 @@ public class ArrayListProgram {
 			System.out.println(a1.get(i));
 		}
 		for(int i:a1) {
-			System.out.println(i);
+			System.out.print(i);
 		}
 	}
 	}
