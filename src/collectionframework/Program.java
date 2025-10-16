@@ -26,7 +26,7 @@ public class Program {
         } 
         else if (arr.size() % 2 == 0) {
             int newSize = arr.size() * 2;
-            System.out.println("Array size is even. Enter " + (newSize - arr.size()) + " more elements:");
+            System.out.println("Array size is even. Enter " + (newSize-arr.size()) + " more elements:");
             for (int i = arr.size(); i < newSize; i++) {
                 arr.add(sc.nextInt());
             }

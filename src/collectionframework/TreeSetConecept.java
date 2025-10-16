@@ -19,6 +19,9 @@ public class TreeSetConecept {
 				System.out.println(s.isEmpty());
 				System.out.println(s.contains("Gomathi"));
 				System.out.println("remove = " +s.remove("Gomathi"));
+				for(String n:s) {
+					System.out.println(n);
+				}
 				
 				s.clear();
 				System.out.println(s);
