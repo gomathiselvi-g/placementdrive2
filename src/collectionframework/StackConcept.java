@@ -19,7 +19,7 @@ public class StackConcept {//LIFO
 		System.out.println(s);
 		s.pop();//removing last element
 		System.out.println(s);
-		System.out.println("peek element "+ s.peek());
+		System.out.println("peek element "+ s.peek());//get last element but wont delete
 		System.out.println(s);
 		s.add(2,8);//adding is possible in stack
 		System.out.println(s);
@@ -29,6 +29,7 @@ public class StackConcept {//LIFO
 		System.out.println(s.add(30));//if the add method is given in the print statement it return true or false
 		s.clear();
 		System.out.println(s);
+		
 		
 	}
 }
