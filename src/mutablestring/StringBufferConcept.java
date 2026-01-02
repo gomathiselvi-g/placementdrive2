@@ -21,6 +21,7 @@ public class StringBufferConcept {
 		System.out.println(sb);
 		sb.insert(16,"has ");
 		System.out.println(sb);
+		System.out.println(sb.reverse());
 		
 	}
 
