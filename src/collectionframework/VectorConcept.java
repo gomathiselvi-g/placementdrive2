@@ -3,7 +3,7 @@ package collectionframework;
 import java.util.Vector;
 public class VectorConcept {
 	public static void main(String[] args) {
-		Vector<Integer> s=new Vector<>();
+		Vector<Integer> s=new Vector<>();//we can change this size(15,2)
 		s.add(43);
 		s.add(4);
 		s.add(36);
