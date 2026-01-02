@@ -8,7 +8,7 @@ public class DequeueConcept {
 	public static void main(String[] args) {
 		Queue<Integer> s=new ArrayDeque<>();
 		Deque<Integer> s1=new LinkedList<>();
-		Deque<Integer> s2=new ArrayDeque<>();
+		Deque<Integer> s2=new ArrayDeque<>();//insert on both sides
 		s.offer(43);
 		s.offer(4);
 		s.offer(36);
